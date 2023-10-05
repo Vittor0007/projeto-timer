@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-weight: 300;
+    user-select: none;
+}
+body {
+    background-color: #000000e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  flex-direction: column;
+  background-color: #000000;
+  height: 90vh;
+  width: 27vw;
+  border-radius: 1rem;
+}
+.circulo-total {
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 40vh;
+    aspect-ratio: 1/1;
+    background-color: #000000;
+    outline: 0.8vh solid orange ;
+    border-radius: 100%;
+}
+#tempo {
+    font-size: 4vh;
+    font-weight:100;
+}
+#horarios-encerramento {
+    display: flex;
+    gap: 10px;
+    opacity: 60%;
+    margin-top: .2rem;
+}
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 30vh;
+}
+#button-iniciar {
+    
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: 0.5vh solid black;
+    font-size: 2vh;
+    cursor: pointer;
+}
+#button-cancelar {
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: 0.5vh solid black;
+    font-size: 2vh;
+    cursor: pointer;
+    display: none;
+}
+#button-retomar{
+    background-color: rgba(255, 136, 0, 0.788);
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: 0.5vh solid black;
+    font-size: 2vh;
+    cursor: pointer;
+    display: none;
+}
+
+#button-pausar{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    border-radius: 100%;
+    border: 0.5vh solid black;
+    font-size: 2vh;
+    cursor: pointer;
+
+}
+
+.circulo-iniciar{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    outline: 0.1rem solid grey;
+    border-radius: 100%;
+    height: 10vh;
+    width: 10vh;
+}
+
+.circulo-parar { 
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    outline: 0.1rem solid orange ;
+    border-radius: 100%;
+    height: 10vh;
+    width: 10vh;
+}
+
+.radar {
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.144);
+    width: 50vh;
+    height: 6vh;
+    color: white;
+    display: flex;
+    padding:0 1vh;
+    border-radius: 0.5rem;
+    margin-top: 3vh;
+    justify-content: space-between;  
+    font-size: 2vh;
+
+}
+
+.color-radar {
+    color: grey;
+}
+
+.foot {
+    display: flex;
+    color: white;
+    gap: 7vh;
+    margin-top: 22vh;
+}
+.foot-todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
